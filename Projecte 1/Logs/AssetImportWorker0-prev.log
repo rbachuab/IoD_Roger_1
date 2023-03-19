@@ -15,15 +15,15 @@ D:/Uni/4t/Integracio/GitHub Integracio/IoD_Roger_Bach_1/Projecte 1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49583
+49686
 Successfully changed project path to: D:/Uni/4t/Integracio/GitHub Integracio/IoD_Roger_Bach_1/Projecte 1
 D:/Uni/4t/Integracio/GitHub Integracio/IoD_Roger_Bach_1/Projecte 1
 Using Asset Import Pipeline V2.
-Player connection [12620] Host "[IP] 10.10.140.34 [Port] 1073957088 [Flags] 2 [Guid] 4092017560 [EditorId] 4092017560 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M4E7UKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15332] Host "[IP] 10.10.140.34 [Port] 2953005280 [Flags] 2 [Guid] 4106497497 [EditorId] 4106497497 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M4E7UKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12620] Host "[IP] 10.10.140.34 [Port] 1073957088 [Flags] 2 [Guid] 4092017560 [EditorId] 4092017560 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M4E7UKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15332] Host "[IP] 10.10.140.34 [Port] 2953005280 [Flags] 2 [Guid] 4106497497 [EditorId] 4106497497 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M4E7UKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 87.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 86.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.44f1 (7f159b6136da)
 [Subsystems] Discovering subsystems at path D:/Uni/4t/Integracio/Unity/Editor/Data/Resources/UnitySubsystems
@@ -39,73 +39,73 @@ Initialize mono
 Mono path[0] = 'D:/Uni/4t/Integracio/Unity/Editor/Data/Managed'
 Mono path[1] = 'D:/Uni/4t/Integracio/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Uni/4t/Integracio/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Uni/4t/Integracio/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002817 seconds.
+Registered in 0.003513 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 78.18 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.342 seconds
+- Completed reload, in  1.382 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1343ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (1383ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1022ms)
-			LoadAssemblies (142ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1076ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (343ms)
+			SetupTypeCache (399ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (367ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (383ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (64ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005556 seconds.
+Registered in 0.005242 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.136 seconds
+- Completed reload, in  2.375 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2138ms)
-		BeginReloadAssembly (321ms)
+	ReloadAssembly (2376ms)
+		BeginReloadAssembly (356ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (1693ms)
-			LoadAssemblies (155ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1882ms)
+			LoadAssemblies (226ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (607ms)
+			SetupTypeCache (608ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (116ms)
-			SetupLoadedEditorAssemblies (595ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (755ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (408ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (573ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
@@ -113,7 +113,7 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
 Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
@@ -121,7 +121,7 @@ System memory in use before: 68.0 MB.
 System memory in use after: 68.1 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1925.
-Total: 2.838000 ms (FindLiveObjects: 0.137200 ms CreateObjectMapping: 0.044500 ms MarkObjects: 2.569200 ms  DeleteObjects: 0.086400 ms)
+Total: 2.849900 ms (FindLiveObjects: 0.137800 ms CreateObjectMapping: 0.043900 ms MarkObjects: 2.577600 ms  DeleteObjects: 0.089700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,151 +135,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1e037b284ba6b6259140b83ea9db61') in 0.108984 seconds 
+  path: Assets/Materials/Alforjas.mat
+  artifactKey: Guid(74c05ab0bd21f7d4e9a6629f75340e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Alforjas.mat using Guid(74c05ab0bd21f7d4e9a6629f75340e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452449e71c1a1277ce52fc423401acdc') in 0.222641 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.142523 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948f2b802c9e3c93fb7cfb4ebb1da831') in 0.020116 seconds 
+  Time since last request: 25.141345 seconds.
+  path: Assets/Objects
+  artifactKey: Guid(e5f9e31a6b09e144bbc7849a4bc26ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects using Guid(e5f9e31a6b09e144bbc7849a4bc26ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6bc7968950b7f32dab40292fa3d661') in 0.015660 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.706787 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d9dd76c3c5eec17dc28622c7d98f4ba') in 0.022888 seconds 
+  Time since last request: 3.502096 seconds.
+  path: Assets/Objects/Alforjas.prefab
+  artifactKey: Guid(b902a94cdc285bd4082d6e300b874954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Alforjas.prefab using Guid(b902a94cdc285bd4082d6e300b874954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8748a48793e2c5db2714065993a5fdf') in 0.051739 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.334605 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23b1e73c6def2a712975d08e4086746') in 0.012393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.007487 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9d89e467a5212a8a388bbc355dbf62') in 0.020774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.432808 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adc4da0cee47b9084f7f9b6b3729251') in 0.025083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.876211 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34a125a58857397534ba34fa7f94fcd') in 0.028961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.593114 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8133c786a9a2c8f3a69cba4bf2452285') in 0.017928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.472399 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21d71ddc13ce96b25ecccff4b3c1717') in 0.016141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.119584 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea67b50ec3056dc042946c316a48c77') in 0.020625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.826053 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8728882cdd24e92ce95bd3506a960e') in 0.131287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.489113 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c3daae552b73626b23ee1e4b48e084') in 0.023709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.677971 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8e325f879684099e8ec3b64d7e432f') in 0.024209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.125311 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edaeab8e341a9d52e91624698ab1004c') in 0.012275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.114546 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16913f1436fbfab2aeb5a30723f4c6dc') in 0.019929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.276779 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e82247051eb81dfb3c27927f5bdaeb') in 0.021932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.870296 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0904eb7bbcb757713be42cb0ac01e6e5') in 0.024761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.315257 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462c39f2be572d28c6a6deefb61298ad') in 0.022805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.583607 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7565d94466c5408e4358e6efcbfc3e') in 0.053412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.554567 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657bfb68949db9ae6dbd90127b53e7a4') in 0.028633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.902513 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a94b3a172672d22f44004089cb6131') in 0.025837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.908398 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f846d15e4df30795d370028fce9a7ce8') in 0.018761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.244506 seconds.
-  path: Assets/Horses/Horse.prefab
-  artifactKey: Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Horses/Horse.prefab using Guid(9cecec0dbcd8b2140a7c69b7112db0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3c80bb31d78c4f0aca331414e7d86d') in 0.018706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.974294 seconds.
-  path: Assets/Materials/EyeBase.mat
-  artifactKey: Guid(3ca65c604f4148b49b2689af522f9ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/EyeBase.mat using Guid(3ca65c604f4148b49b2689af522f9ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394dc7150c3dc84149746b0329a43635') in 1.100502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.717998 seconds.
-  path: Assets/Materials/EyeBase.mat
-  artifactKey: Guid(3ca65c604f4148b49b2689af522f9ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/EyeBase.mat using Guid(3ca65c604f4148b49b2689af522f9ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdcf5c0116883ce17ffe0a6528fc03d') in 1.516010 seconds 
+  Time since last request: 41.805513 seconds.
+  path: Assets/Objects/Alforjas.prefab
+  artifactKey: Guid(b902a94cdc285bd4082d6e300b874954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Objects/Alforjas.prefab using Guid(b902a94cdc285bd4082d6e300b874954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb69321188868dd190344bc31abdfe7') in 0.035836 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

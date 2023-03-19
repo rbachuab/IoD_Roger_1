@@ -178,10 +178,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2366509572576810782, guid: 9cecec0dbcd8b2140a7c69b7112db0eb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95292b07b33a7f8438c866465416e3b3, type: 2}
     - target: {fileID: 3063841090889430100, guid: 9cecec0dbcd8b2140a7c69b7112db0eb, type: 3}
       propertyPath: m_Name
       value: GrayHorse
       objectReference: {fileID: 0}
+    - target: {fileID: 3406958607391486367, guid: 9cecec0dbcd8b2140a7c69b7112db0eb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95292b07b33a7f8438c866465416e3b3, type: 2}
     - target: {fileID: 4971933733827582564, guid: 9cecec0dbcd8b2140a7c69b7112db0eb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
